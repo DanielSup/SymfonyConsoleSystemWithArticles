@@ -1,0 +1,24 @@
+{
+  "name": "vendor_name/package_name",
+  "description": "description_text",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "author's name",
+      "email": "email@example.com"
+    }
+  ],
+  "require": {
+    "symfony/console": "^3.3",
+    "oneup/flysystem-bundle": "^1.14",
+    "league/flysystem": "^1.0",
+    "monolog/monolog": "^1.23"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^5.7"
+  },
+  "autoload": {
+    "psr-4": {"": "src/"}
+  }
+}
